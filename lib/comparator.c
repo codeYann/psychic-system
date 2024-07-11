@@ -1,6 +1,6 @@
 #include "comparator.h"
 
-int8_t comparator(int8_t u, uint8_t v) {
+int8_t compare(int8_t u, uint8_t v) {
   int8_t comp = 0;
 
   for (int i = 0; i < 8; i++) {
